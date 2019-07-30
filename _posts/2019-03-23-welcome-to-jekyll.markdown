@@ -37,7 +37,7 @@ Now we can start implementing test cases for component,
 I contributed to develop some react reusable component&#39;s you can see them here [https://www.npmjs.com/package/eternus-react-component](https://www.npmjs.com/package/eternus-react-component) I am going to write test cases for login component which looks like,
 
 
- ![](/jest-enzyme.github.io/assets/LoginComponent.PNG)
+ ![](/assets/LoginComponent.PNG)
 
 For this component, test cases can be:
 
@@ -58,7 +58,7 @@ And the lists go on, writing test cases varies from person to person, Whatever t
 
     I created a new file named LoginComponent.test.js inside which we are going to write test     cases
 
-    ![](/assets/1.PNG)
+    ![](/assets/1.png)
 
     The Enzyme is built to support different versions of React. So, you have to install an Adapter that corresponds to the version of React that you are using. In this test case we simply render a Login component using shallow and check if that wrapper exists or not.
 2. The second test case is testing the signUp button
