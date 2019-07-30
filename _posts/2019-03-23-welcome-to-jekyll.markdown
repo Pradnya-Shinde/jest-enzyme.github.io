@@ -37,7 +37,7 @@ Now we can start implementing test cases for component,
 I contributed to develop some react reusable component&#39;s you can see them here [https://www.npmjs.com/package/eternus-react-component](https://www.npmjs.com/package/eternus-react-component) I am going to write test cases for login component which looks like,
 
 
- ![](/assets/LoginComponent.PNG)
+ ![](jest-enzyme.github.io\assets\2.PNG)
 
 For this component, test cases can be:
 
