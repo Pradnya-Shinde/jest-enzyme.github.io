@@ -37,7 +37,7 @@ Now we can start implementing test cases for component,
 I contributed to develop some react reusable component&#39;s you can see them here [https://www.npmjs.com/package/eternus-react-component](https://www.npmjs.com/package/eternus-react-component) I am going to write test cases for login component which looks like,
 
 
- ![](/assets/LoginComponent.png)
+ ![](/assets/LoginComponent.PNG)
 
 For this component, test cases can be:
 
@@ -58,35 +58,35 @@ And the lists go on, writing test cases varies from person to person, Whatever t
 
     I created a new file named LoginComponent.test.js inside which we are going to write test     cases
 
-    ![](/assets/1.png)
+    ![](/assets/1.PNG)
 
     The Enzyme is built to support different versions of React. So, you have to install an Adapter that corresponds to the version of React that you are using. In this test case we simply render a Login component using shallow and check if that wrapper exists or not.
 2. The second test case is testing the signUp button
 
     I have assigned the value to the props in propsData we will further pass the propsData to the login component. signUp button has id signUp so we can identify the button. We are simply creating the same environment as the actual component is rendered.
 
-    ![](/assets/2.png)
+    ![](/assets/2.PNG)
 
 3. The third test case for checking the usernameType
 
     In the previous test case, we pass all the props which were not compulsory to do we can do it another way also, we can pass only one prop which we want to send by the following way
 
-    ![](/assets/3.png)
+    ![](/assets/3.PNG)
 
     This is LoginComponent.test.js
 
-    ![](/assets/4.png)
+    ![](/assets/4.PNG)
 
     This is LoginComponent.js where usernameType is email now after running the test let&#39;s see what we are getting,
 
-    ![](/assets/5.png)
+    ![](/assets/5.PNG)
 
     We are getting a text here, so we are on the right track.
 
 
 4. Checking the type of password
 
-    ![](/assets/6.png)
+    ![](/assets/6.PNG)
 
     After writing all the test cases we are going to run it by,
 
@@ -94,7 +94,7 @@ And the lists go on, writing test cases varies from person to person, Whatever t
 
     Which will show you this kind of result
 
-    ![](/assets/7.png)
+    ![](/assets/7.PNG)
 
 
 So, this was all about how you can test your component using jest and enzyme. Thanks for reading, keep learning keep going.
