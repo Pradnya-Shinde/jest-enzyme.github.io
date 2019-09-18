@@ -56,35 +56,35 @@ And the lists go on, number of test cases varies as per indivisual, Whatever the
 
     I created a new file named LoginComponent.test.js inside which we are going to write test  cases
 
-    ![](/jest-enzyme.github.io/assets/1.png)
+    ![](/jest-enzyme.github.io/assets/1.PNG)
 
     The enzyme is built to support different versions of React. So, you have to install an Adapter that corresponds to the version of React that you are using. In this test case we simply render a Login component using shallow and check if that wrapper exists or not.
 2. The second test case is testing the signUp button
 
     I have assigned the value to the props in propsData we will further pass the propsData to the login component. signUp button has id signUp so we can identify the button. We are simply creating the same environment as the actual component is rendered.
 
-    ![](/jest-enzyme.github.io/assets/2.png)
+    ![](/jest-enzyme.github.io/assets/2.PNG)
 
 3. The third test case for checking the usernameType
 
     In the previous test case, we pass all the props which were not compulsory to do we can do it another way also, we can pass only one prop which we want to send by the following way
 
-    ![](/jest-enzyme.github.io/assets/3.png)
+    ![](/jest-enzyme.github.io/assets/3.PNG)
 
     This is LoginComponent.test.js
 
-    ![](/jest-enzyme.github.io/assets/4.png)
+    ![](/jest-enzyme.github.io/assets/4.PNG)
 
     This is LoginComponent.js where usernameType is email now after running the test let&#39;s see what we are getting,
 
-    ![](/jest-enzyme.github.io/assets/5.png)
+    ![](/jest-enzyme.github.io/assets/5.PNG)
 
     We are getting a text here, so we are on the right track.
 
 
 4. Checking the type of password
 
-    ![](/jest-enzyme.github.io/assets/6.png)
+    ![](/jest-enzyme.github.io/assets/6.PNG)
 
     After writing all the test cases we are going to run it by,
 
@@ -92,7 +92,7 @@ And the lists go on, number of test cases varies as per indivisual, Whatever the
 
     Which will show you this kind of result
 
-    ![](/jest-enzyme.github.io/assets/7.png)
+    ![](/jest-enzyme.github.io/assets/7.PNG)
 
 
 So, this was all about how you can test your component using jest and enzyme. Thanks for reading, keep learning keep going.
