@@ -35,7 +35,7 @@ So, let&#39;s get started,
 Now we can start implementing test cases for component.I am going to write test cases for login component which looks like,
 
 
- ![](/jest-enzyme.github.io/assets/LoginComponent.png)
+ ![](/jest-enzyme.github.io/assets/LoginComponent.PNG)
 
 For this component, test cases can be:
 
